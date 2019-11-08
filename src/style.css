@@ -1,0 +1,37 @@
+.d-flex input{
+    margin: 2em 0em;
+}
+.d-flex button{
+    margin: 1.5em .6em;
+    padding: .3em 2.4em;
+}
+.container table{
+    margin: 1em 10em;
+}
+i.fas.fa-edit.btnedit {
+    color: lightgreen;
+    cursor: pointer;
+}
+
+i.fas.fa-trash-alt.btndelete {
+    color: tomato;
+    cursor: pointer;
+}
+.insertmsg,
+.updatemsg,
+.deletemsg{
+    position: absolute;
+    top: -40px;
+   
+}
+.movedown{
+    animation: slideup 3.4s ease;
+}
+@keyframes slideup{
+    50%{
+        top: 0;
+    }
+    100%{
+        top: -40px;
+    }
+}
